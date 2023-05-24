@@ -1,6 +1,12 @@
 #include<iostream>
 using namespace std;
+
+
 int main(){
-    cout<<"Hello World";
+int n;
+cin>>n;
+
+cout<<"the value of n is: "<< n << endl;
+
     return 0;
 }
