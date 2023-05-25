@@ -5,8 +5,12 @@ using namespace std;
 int main(){
 int n;
 cin>>n;
-
-cout<<"the value of n is: "<< n << endl;
+if (n>0){
+  cout<<"A is a positive Integer"<< endl;  
+}
+else {
+    cout<<"A is a negative Integer"<< endl;
+}
 
     return 0;
 }
