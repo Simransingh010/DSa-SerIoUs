@@ -3,15 +3,11 @@ using namespace std;
 
 
 int main(){
- int n;
- cin>>n;
- if (n>0)
- {
-  cout<<"the number is positive"<<endl;
- }
- else if (n<0)
- {
-  cout<<"the number is negative"<<endl;
- }
+ int a,b;
+ cin>>a>>b;
+
+ cout<<"the value of A and B is "<<a<<" and "<<b<<endl;
+
+ 
     return 0;
 }
